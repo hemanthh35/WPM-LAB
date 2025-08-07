@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  .container.mt-5
+    .row.justify-content-center
+      .col-md-8.text-center
+        h1.display-4.mb-4
+          i.fas.fa-rocket.text-primary.me-3
+          = title
+        p.lead.mb-4 Welcome to #{title}
+        .row.mt-5
+          .col-md-4
+            .card.shadow-sm
+              .card-body.text-center
+                i.fas.fa-code.fa-3x.text-primary.mb-3
+                h5.card-title MVC Architecture
+                p.card-text Built with Express.js and Pug templates
+          .col-md-4
+            .card.shadow-sm
+              .card-body.text-center
+                i.fas.fa-palette.fa-3x.text-success.mb-3
+                h5.card-title Bootstrap 5
+                p.card-text Modern responsive design framework
+          .col-md-4
+            .card.shadow-sm
+              .card-body.text-center
+                i.fas.fa-icons.fa-3x.text-warning.mb-3
+                h5.card-title Font Awesome
+                p.card-text Beautiful icons for your interface 
